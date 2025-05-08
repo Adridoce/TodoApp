@@ -16,7 +16,7 @@ import javax.inject.Singleton
 class DatabaseModule {
 
     @Provides
-    fun provideTaskDao(todoDatabase: TodoDatabase):TaskDao{
+    fun provideTaskDao(todoDatabase: TodoDatabase): TaskDao {
         return todoDatabase.taskDao()
     }
 

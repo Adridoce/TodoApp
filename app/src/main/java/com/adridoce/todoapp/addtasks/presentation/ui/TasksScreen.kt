@@ -63,7 +63,10 @@ fun TasksScreen(modifier: Modifier, tasksViewModel: TasksViewModel) {
 
     when (uiState) {
         is TasksUiState.Error -> {}
-        TasksUiState.Loading -> { CircularProgressIndicator() }
+        TasksUiState.Loading -> {
+            CircularProgressIndicator()
+        }
+
         is TasksUiState.Success -> {
             Box(
                 modifier = modifier
