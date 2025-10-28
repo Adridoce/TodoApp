@@ -18,7 +18,7 @@ TodoApp es una aplicación de ejemplo desarrollada como proyecto de práctica pa
 - Persistencia local de datos usando Room
 - Arquitectura modular y mantenible basada en MVVM
 
-💡 Objetivo del proyecto
+## 💡 Objetivo del proyecto
 
 Esta aplicación fue desarrollada como proyecto de práctica para demostrar:
 
